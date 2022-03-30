@@ -1,0 +1,147 @@
+.body {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.row-eq-height {
+  display: flex;
+}
+.margint30 {
+  margin-top: 30px!important;
+}
+.margint20 {
+  margin-top: 20px!important;
+}
+ul li {
+  list-style: none;
+}
+.headtext hr {
+  color: #83b735;
+  border-style: solid;
+}
+.headtext h2 {
+  text-align: center;
+  text-decoration: dashed;
+}
+.headtext p {
+  text-align: left;
+  font-size: 14px;
+}
+.headtext h3 {
+  text-align: center;
+  text-decoration: dashed;
+}
+.headtext a {
+  text-decoration: none;
+}
+.headtext a:hover {
+  text-decoration: none;
+  color: black;
+}
+.privarystart {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.privarystart li:before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  background: #83b735;
+  position: absolute;
+  top: 8px;
+  left: 0;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+}
+.privarystart li {
+  padding-left: 16px;
+  margin-bottom: 10px;
+  position: relative; 
+}
+.accordion {
+  font-family: 'Open Sans', sans-serif;
+  background: #fefbf5;
+  margin: 40px;
+  line-height: 17px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+.accordion-header,
+.accordion-body {
+  background: white;
+}
+.accordion-header {
+  padding: 1.5em 1.5em;
+  background: #fefbf5;
+  cursor: pointer;
+  font-size: 17px;
+  letter-spacing: 1px;
+  transition: all .3s;
+}
+.accordion__item {
+  border: 1px solid #83b735;
+}
+
+.accordion__item .accordion__item {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.accordion-body {
+  background: #fefbf5;
+  color: #353535;
+  display: none;
+}
+.accordion-body__contents {
+  padding: 0px 20px;
+  font-size: 12px;
+  border-top: 1px solid #83b735;
+}
+.accordion-body__contents .pcenter {
+  text-align: center;
+}
+.accordion__item.active:last-child .accordion-header {
+  border-radius: none;
+}
+.accordion:first-child > .accordion__item > .accordion-header {
+  border-bottom: 1px solid transparent;
+}
+.accordion__item > .accordion-header:after {
+  content: "view more details";
+  font-family: IonIcons;
+  font-size: 1.2em;
+  float: right;
+  position: relative;
+  top: -2px;
+  transition: .3s all;
+  transform: rotate(0deg);
+  text-decoration: underline;
+  color: red;
+}
+.accordion__item.active .accordion-header {
+  background: #fefbf5;
+}
+.accordion__item .accordion__item .accordion-header {
+  background: #f1f1f1;
+  color: #353535;
+  font-size: 11px;
+}
+.careerinfo {
+  padding-top: 20px;
+  font-size: 14px;
+}
+.cart:before {
+  content: "0";
+    font-size: 10px;
+    font-weight: 600;
+    position: absolute;
+    top: 5px;
+    right: 11px;
+    background: #83b735;
+    line-height: 16px;
+    margin-bottom: 10px;
+    height: 14px;
+    min-width: 15px;
+    color: white;
+    text-align: center;
+    border-radius: 24px;
+}

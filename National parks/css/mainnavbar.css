@@ -1,0 +1,240 @@
+/* MainNavBar CSS Start */
+.col-flex-flex-middle {
+    background-color: #83b735;
+    display: flex;
+}
+.navrow {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.dropdown-toggle:hover {
+    color: white;
+    transition:all .001s;
+}
+.dropdown-item:hover {
+    color: #83b735;
+    transition:all .001s;
+}
+.language {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.languagebtn,.languagebtn:focus {
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 13px;
+    font-family: 'Roboto Condensed', sans-serif;
+    box-shadow: none;
+    padding: 0;
+    font-weight: bold;
+}
+.languagebtn:hover {
+    color:rgba(255,255,255,.8);
+    transition:all .001s;
+}
+.country {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.countrybtn,.countrybtn:focus {
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 13px;
+    font-family: 'Roboto Condensed', sans-serif;
+    box-shadow: none;
+    padding: 0;
+    font-weight: bold;
+}
+.countrybtn:hover {
+    color:rgba(255,255,255,.8);
+    transition:all .001s;
+}
+.lang1 {
+    color: slategray;
+    font-size: 13px;
+}
+.lang2 {
+    font-size: 13px;
+}
+.count1 {
+    color: slategray;
+    font-size: 13px;
+}
+#navtext {
+    color: white;
+    font-size: 12px;
+    padding: 5px 2px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bolder;
+}
+.navtextdiv {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    
+    align-items: center;
+}
+.col {
+    display: flex;
+    flex-direction: row;
+}
+.col, .col-right {
+    justify-content: flex-end;
+    font-size: 19px;
+    padding: 0;
+}
+.compare {
+    display: flex;
+    text-align: end;
+    padding: 0;
+    justify-content: center;
+    color: white;
+    font-size: 12.3px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bolder;
+}
+.compare a:hover {
+    text-decoration: none;
+    color:rgba(255,255,255,.8);
+}
+.compare i {
+    font-size: 9.5px;
+    padding-right: 5px;
+}
+.faqs i {
+    font-size: 11px;
+    padding-right: 5px;
+}
+.signup i {
+    font-size: 11px;
+    padding-right: 5px;
+}
+.col, .col-right, a {
+    text-decoration: none;
+    color: white;
+}
+.social-facebook {
+    padding-right: 6px;
+}
+.social-facebook:hover {
+    text-decoration: none;
+    color:rgba(255,255,255,.8);
+    transition:all .001s;
+}
+.social-twitter {
+    padding-right: 6px;
+}
+.social-twitter:hover {
+    text-decoration: none;
+    color:rgba(255,255,255,.8);
+    transition:all .001s;
+}
+.social-email {
+    padding-right: 6px;
+}
+.social-email:hover {
+    text-decoration: none;
+    color:rgba(255,255,255,.8);
+    transition:all .001s;
+}
+.social-instagram {
+    padding-right: 6px;
+}
+.social-instagram:hover {
+    text-decoration: none;
+    color:rgba(255,255,255,.8);
+    transition:all .001s;
+}
+.social-youtube {
+    padding-right: 6px;
+}
+.social-youtube:hover {
+    text-decoration: none;
+    color:rgba(255,255,255,.8);
+    transition:all .001s;
+}
+.social-share {
+    padding-right: 6px;
+}
+.social-share:hover {
+    text-decoration: none;
+    color:rgba(255,255,255,.8);
+    transition:all .001s;
+}
+.faqs {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.faqsbtn {
+    color: white;
+    font-size: 13px;
+    box-shadow: none;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 0;
+    font-weight: bold;
+}
+.faqsbtn:focus {
+    box-shadow: none;
+}
+.signup {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+.signupbtn {
+    color: white;
+    font-size: 13px;
+    box-shadow: none;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 0;
+    font-weight: bold;
+}
+.signupbtn:focus {
+    box-shadow: none;
+}
+.upper_right_menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.upper_right_menu ul{
+    list-style: none;
+    width: 100%;
+    display: inline-block;
+    padding:0;
+    margin: 0;
+    text-align: center
+}
+.upper_right_menu ul li{
+    display: inline-block;
+    padding: 0 5px;
+}
+.upper_right_menu ul li a::before{
+    content: " ";
+    padding-right: 10px;
+    font-weight: normal;
+}
+.upper_right_menu ul li a:hover{
+    color:rgba(255,255,255,.8);
+    transition:all .001s;
+    text-decoration: none;
+}
+.upper_right_menu ul li:first-child a::before{
+    content: "";
+}
+
+@media(max-width:580px){
+    .mb_half{
+        width: 50%;
+    }
+}
+/* MainNavBar CSS End */
+

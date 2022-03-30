@@ -1,0 +1,38 @@
+#header {
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: Poppins;
+    letter-spacing: .1px;
+}
+#header .nav-header {
+    font-size: 13px;
+    font-weight: 400;
+    position: relative;
+    font-family: Poppins;
+    background: #47b3a0;
+}
+.page-width {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#header .nav-header .header-block {
+    text-align: center;
+    padding: 9px 0;
+    position: relative;
+}
+#header .nav-header .header-block .header-text {
+    position: relative;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: .5px;
+    color: #fff;
+}
+#header .nav-header .header-block .header-text i {
+    font-size: 17px;
+    margin-right: 5px;
+}
+#header .nav-header .header-block>div {
+    display: inline-block;
+    vertical-align: middle;
+}

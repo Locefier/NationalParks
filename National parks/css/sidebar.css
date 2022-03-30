@@ -1,0 +1,250 @@
+/* SideBar CSS Start */
+#mySidebar {
+  background-color: white;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+/*----------------sidebar-content----------------*/
+
+.sidebar .sidebar-header {
+  padding: 20px;
+  overflow: hidden;
+}
+
+.sidebar .sidebar-header .user-pic {
+  float: left;
+  width: 60px;
+  padding: 2px;
+  border-radius: 12px;
+  margin-right: 15px;
+  overflow: hidden;
+}
+
+.sidebar .sidebar-header .user-pic img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.sidebar .sidebar-header .user-info {
+  float: left;
+}
+
+.sidebar .sidebar-header .user-info > span {
+  display: block;
+}
+
+.sidebar .sidebar-header .user-info .user-role {
+  font-size: 12px;
+}
+
+.sidebar .sidebar-header .user-info .user-status {
+  font-size: 11px;
+  margin-top: 4px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.sidebar .sidebar-header .user-info .user-status i {
+  font-size: 8px;
+  margin-right: 4px;
+  color: #5cb85c;
+}
+
+/* The sidebar menu */
+.sidebar {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 500; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 10px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+  }
+  
+  /* The sidebar links */
+  .sidebar a {
+    padding: 8px 8px 8px 30px;
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  /* The button used to open the sidebar */
+  .openbtn {
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #fff;
+    color: 222;
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  .openbtn:hover {
+    background-color: #fff;
+  }
+
+  .openbtn:focus {
+    border: none;
+    outline: none;
+  }
+  
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  #main {
+    transition: margin-left .5s; /* If you want a transition effect */
+    display: block;
+    float: left;
+  }
+  .sidebar_open {
+    width: 250px;
+  }
+
+  .content_move {
+    margin-left: 250px;
+  }
+  .discount {
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+  }
+  .discount:hover {
+    color: white;
+    background-color: #585857;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  .sidebar a, .dropdown-btn {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+    font-weight: bold;
+  }
+  .dropdown-btn:hover {
+    color: white;
+    background-color: #585857;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  .dropdown-btn:focus {
+    border: none;
+    outline: none;
+    text-decoration: none;
+  }
+  .dropdown-container {
+     display: none;
+     background-color: white;
+  }
+  .dropdown-container a {
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+  }
+  .dropdown-container a:hover {
+    color: black;
+    background-color: white;
+    text-decoration: none;
+  }
+  
+  /* Optional: Style the caret down icon */
+  .fa-caret-down {
+    float: right;
+    padding: inherit;
+    font-size: 18px;
+  }
+  .fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 18px;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+  
+.active_drop {
+  display: block;
+  -webkit-animation: slide-down .3s ease-out;
+  -moz-animation: slide-down .3s ease-out;
+}
+
+@-webkit-keyframes slide-down {
+    0% { opacity: 0; -webkit-transform: translateY(-100%); }   
+  100% { opacity: 1; -webkit-transform: translateY(0); }
+}
+@-moz-keyframes slide-down {
+    0% { opacity: 0; -moz-transform: translateY(-100%); }   
+  100% { opacity: 1; -moz-transform: translateY(0); }
+}
+/* SideBar CSS End */
+.main-logo {
+  display: inline-block;
+  height: 100%;
+}
+.main-logo img{
+  max-width: 160px;
+  height: auto;
+}
+.wishlist a {
+  text-decoration: none;
+  color: #111;
+}
+.cart a {
+  text-decoration: none;
+  color: #111;
+}
+.list_cart{
+  height: 100%;
+  padding-top: 10px;
+  float: right;
+}
+.list_cart ul{
+  list-style: none;
+  width: 100%;
+  display: inline-block;
+  padding:0;
+  margin: 0;
+  text-align: center
+}
+.list_cart ul li{
+  display: inline-block;
+  padding: 0 5px;
+}
+.list_cart ul li a:hover{
+  transition:all .001s;
+  text-decoration: none;
+}
+.logo_container{
+  text-align: center;
+}
+
+@media(max-width:580px){
+  .control_btn{
+    max-width:16.666667%;
+  }
+}
+.close_btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 1px solid black;
+  color: black;
+  background-color: red;
+}
+.close_btn:hover {
+  background-color: red;
+  color: #111;
+}
+.close_btn:focus {
+  outline: none;
+}

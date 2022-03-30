@@ -1,0 +1,239 @@
+body, html {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #545454;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+.footers {
+    color: #616161;
+    background-color: #333;
+}
+.footercaro {
+    font-size: 13px;
+    text-align: center;
+    color: white;
+}
+.linebreaker {
+    color: #868686;
+    background-color: #868686;
+}
+.footcarotext {
+    font-size: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.footerstars {
+    color: #FFD700;
+}
+.footers .footers-icons .footerul li {
+    text-decoration: none;
+    list-style-type: none;
+}
+.footer-social {
+    display: inline-flex;
+    padding-right: 4px;
+    background-size: 269px
+}
+
+.social {
+    width: 40px;
+    height: 40px;
+}
+
+.facebook {
+    background-image: url('../images/Social_Icons/Transparent-Facebook-Icon.png');
+    background-size: contain;
+    transition: 0.1s all;
+}
+
+.facebook:hover {
+    background-image: url('../images/Social_Icons/Colored-Facebook-Icon.png');
+    transition: 0.1s all;
+
+}
+.instagram {
+    background-image: url('../images/Social_Icons/Transparent-Instagram-Icon.png');
+    background-size: contain;
+    transition: 0.1s all;
+}
+
+.instagram:hover {
+    background-image: url('../images/Social_Icons/Colored-Instagram-Icon.png');
+    transition: 0.1s all;
+
+}
+.pinterest {
+    background-image: url('../images/Social_Icons/Transparent-Pinterest-Icon.png');
+    background-size: contain;
+    transition: 0.1s all;
+}
+
+.pinterest:hover {
+    background-image: url('../images/Social_Icons/Colored-Pinterest-Icon.png');
+    transition: 0.1s all;
+
+}
+.youtube {
+    background-image: url('../images/Social_Icons/Transparent-Youtube-Icon.png');
+    background-size: contain;
+    transition: 0.1s all;
+}
+
+.youtube:hover {
+    background-image: url('../images/Social_Icons/Colored-Youtube-Icon.png');
+    transition: 0.1s all;
+
+}
+.linkedin {
+    background-image: url('../images/Social_Icons/Transparent-LinkedIn-Icon.png');
+    background-size: contain;
+    transition: 0.1s all;
+}
+
+.linkedin:hover {
+    background-image: url('../images/Social_Icons/Colored-InLinked-Icon.png');
+    transition: 0.1s all;
+
+}
+.footers .location-address .contact-icons p { 
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.footers .location-address .contact-icons p:hover { 
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+}
+.footers .location-address .contact-icons li {
+    list-style-type: none;
+}
+.footers .location-address .contact-icons li i {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #868686;
+    text-align: center;
+    line-height: 38px;
+    vertical-align: middle;
+    margin-top: 2px;
+}
+.footers .location-address .contact-icons li a {
+    color: #868686;
+    text-decoration: none; 
+    font-size: 13px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.footers .location-address .contact-icons li a:hover {
+    color: white;
+}
+.contact-icons .contact-details {
+    display: flex;
+    align-items: center;
+}
+/*Ratings*/
+.rating { 
+  border: none;
+  float: left;
+}
+
+.rating > input { display: none; } 
+.rating > label:before { 
+  margin: 5px;
+  font-size: 1.25em;
+  font-family: FontAwesome;
+  display: inline-block;
+  content: "\f005";
+}
+
+.rating > .half:before { 
+  content: "\f089";
+  position: absolute;
+}
+
+.rating > label { 
+  color: #ddd; 
+ float: right; 
+}
+
+.btn-cart{
+  background-color: #799e8b; 
+  padding: 15px 40px 15px 40px; 
+  font-size: 13px;
+  color: #ffffff; 
+  font-family: opensans; 
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.btn-cart:hover{
+	text-decoration: none;	
+	color: #ffffff;
+}
+
+/***** CSS Magic to Highlight Stars on Hover *****/
+
+.rating > input:checked ~ label, /* show gold star when clicked */
+.rating:not(:checked) > label:hover, /* hover current star */
+.rating:not(:checked) > label:hover ~ label { color: #FFD700;  } /* hover previous stars in list */
+
+.rating > input:checked + label:hover, /* hover current star when changing rating */
+.rating > input:checked ~ label:hover,
+.rating > label:hover ~ input:checked ~ label, /* lighten current selection */
+.rating > input:checked ~ label:hover ~ label { color: #FFED85;  } 
+/*End Ratings*/
+
+.footeraboutus ul li {
+    list-style-type: none;
+}
+.footeraboutus ul li a {
+    text-decoration: none;
+    color: #868686;
+    font-size: 13px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.footeraboutus ul li a:hover {
+    color: white;
+}
+.footerhelp ul li {
+    list-style-type: none;
+}
+.footerhelp ul li a {
+    text-decoration: none;
+    color: #868686;
+    font-size: 13px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.footerhelp ul li a:hover {
+    color: white;
+}
+.rightul {
+    padding: 0;
+}
+.footersitestart {
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+.footersiteareas {
+    color: #c7c7c7;
+    font-size: 14px;
+}
+.footersiteareas a {
+    text-decoration: none;
+    color: #c7c7c7;
+}
+.footersiteareas a:hover {
+    color: #FFD700;
+}
+.copyright {
+    background-color: #333;
+    color: #868686;
+}
+.copyrightdanger {
+    color: red;
+}
+.border {
+    border: 1px solid #868686!important;
+}

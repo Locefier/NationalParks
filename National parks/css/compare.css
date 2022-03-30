@@ -1,0 +1,207 @@
+.normal-table {
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 100%;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  border-radius: 0;
+  font-size: 14px;
+}
+.headingrow {
+  background-color: #F9F9F9;
+  font-weight: bold;
+}
+td, th {
+  padding: 0;
+}
+th {
+  text-align: left;
+}
+h1 {
+  font-size: 26px;
+  line-height: 34px;
+}
+.section-tite-inner {
+  text-align: center;
+}
+.gap {
+  height: 30px;
+  width: 100%;
+  clear: both;
+  display: block;
+}
+thead {
+  display: table-header-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+.normal-table>tbody>tr>td, .normal-table>thead>tr>th {
+  border-left: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+.form-group {
+  margin-bottom: 15px;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.btn-12 {
+  position: relative;
+  /* right: 20px; */
+  left: 40px;
+  bottom: 20px;
+  border: none;
+  line-height: 40px;
+  -webkit-perspective: 230px;
+  perspective: 230px;
+  background-color: white;
+  color: white;
+  border-color: white;
+  outline: none;
+}
+.btn-12:hover {
+  background-color: white;
+  color: white;
+  border-color: white;
+  outline: none;
+}
+.btn-12:focus {
+  background-color: white;
+  color: white;
+  border-color: white;
+  outline: none;
+}
+.btn-12 span {
+  background: rgb(0,172,238);
+background: linear-gradient(0deg, #83b735 0%, #83b735);
+  display: block;
+  position: absolute;
+  width: 130px;
+  height: 40px;
+  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5);
+  border-radius: 5px;
+  margin:0;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+.btn-12 span:nth-child(1) {
+  box-shadow:
+   -7px -7px 20px 0px #fff9,
+   -4px -4px 5px 0px #fff9;
+  -webkit-transform: rotateX(90deg);
+  -moz-transform: rotateX(90deg);
+  transform: rotateX(90deg);
+  -webkit-transform-origin: 50% 50% -20px;
+  -moz-transform-origin: 50% 50% -20px;
+  transform-origin: 50% 50% -20px;
+}
+.btn-12 span:nth-child(2) {
+  -webkit-transform: rotateX(0deg);
+  -moz-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+  -webkit-transform-origin: 50% 50% -20px;
+  -moz-transform-origin: 50% 50% -20px;
+  transform-origin: 50% 50% -20px;
+}
+.btn-12:hover span:nth-child(1) {
+  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5);
+  -webkit-transform: rotateX(0deg);
+  -moz-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+}
+.btn-12:hover span:nth-child(2) {
+  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5);
+ color: transparent;
+  -webkit-transform: rotateX(-90deg);
+  -moz-transform: rotateX(-90deg);
+  transform: rotateX(-90deg);
+}
+.cart:before {
+  content: "0";
+    font-size: 10px;
+    font-weight: 600;
+    position: absolute;
+    top: 5px;
+    right: 11px;
+    background: #83b735;
+    line-height: 16px;
+    margin-bottom: 10px;
+    height: 14px;
+    min-width: 15px;
+    color: white;
+    text-align: center;
+    border-radius: 24px;
+}
+.imgrow {
+  width: 100%;
+  height: auto;
+}
+#spnproductimg1 img {
+  width: 100%;
+  height: auto;
+}
+#spnproductimg2 img {
+  width: 100%;
+  height: auto;
+}
+.cart:before {
+content: "0";
+    font-size: 10px;
+    font-weight: 600;
+    position: absolute;
+    top: 5px;
+    right: 11px;
+    background: #83b735;
+    line-height: 16px;
+    margin-bottom: 10px;
+    height: 14px;
+    min-width: 15px;
+    color: white;
+    text-align: center;
+    border-radius: 24px;
+}
+.tdd {
+  max-width: 10%;
+  min-width: 10%;
+  width: 10%;
+  height: auto;
+}
+ /* .tdd1 {
+  max-width: 300px;
+} */
+.tddimg {
+  height: 110px;
+}
+#btnCompare1 {
+  box-shadow: none;
+}
+#btnCompare2 {
+  box-shadow: none;
+}

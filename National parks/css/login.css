@@ -1,0 +1,317 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Varela Round', sans-serif;
+}
+.fa-user {
+    font-size: larger;
+    color: rgb(88, 58, 22);
+    padding-top: 6px;
+
+}
+.fa-cart-plus{
+    font-size: larger;
+    color: rgb(88, 58, 22);
+    padding-top: 6px;
+}
+
+.navbar{
+    background-color: rbg(0,0,0,0.3);
+
+}
+.navbar a{
+    font-size: 16px;
+    color: rgb(88, 58, 22);
+    padding-top: 10px;
+}
+
+a.dropdown-item {
+    margin-left: 10px;
+    padding-left: 0px;
+    width: 200px;
+    cursor: pointer;
+}
+a.dropdown-item :hover{
+    padding: 30px;
+    color: goldenrod;
+    margin-left: 0px;
+    padding-left: 0pz;
+}
+
+.collapse{
+    margin-left: 20%;
+}
+.collapse a{
+    margin-left: 10px;
+
+}
+.collapse a:hover{
+    color: goldenrod;
+    border-bottom: 2px solid goldenrod;
+    transition: 0.5s;
+}
+.dropdown:hover>.dropdown-menu{
+    display: block;
+}
+
+
+.form-control {
+    box-shadow: none;
+    border-color: #ddd;
+}
+
+ .form-control:focus {
+    border-color:goldenrod; 
+} 
+.login-form {
+    width: 500px;
+    margin: 0 auto;
+    padding: 70px 0;
+   
+}
+.login-form   form  {
+    color: #584e4e;
+    border-radius: 1px;
+    margin-bottom: 15px;
+    background: #fff;
+    border: 1px solid #888383;
+     box-shadow: 0px 2px 2px rgba(70, 58, 58, 0.3);
+    padding: 30px;
+}
+.login-form h4 {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.login-form .avatar {
+    color: #fff;
+    margin: 0 auto 30px;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    z-index: 9;
+    background:white ;
+    padding: 15px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+}
+.login-form .avatar i {
+    font-size: 62px;
+}
+.login-form .form-group {
+    margin-bottom: 20px;
+}
+.login-form .form-control, .login-form .btn {
+    min-height: 40px;
+    border-radius: 9px; 
+    transition: all 0.5s;
+}
+.login-form .close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+.login-form .btn {
+    background:  transparent;
+    width: 30%;
+    border: 3px solid rgb(88, 58, 22);
+    line-height: normal;
+    color: goldenrod;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.login-form .btn:hover, .login-form .btn:focus {
+    background: rgb(88, 58, 22);
+    transition: 0.5s;
+    border-radius: 5%;
+}
+.login-form .checkbox-inline {
+    float: left;
+}
+.login-form input[type="checkbox"] {
+    margin-top: 2px;
+}
+.login-form .forgot-link {
+    float: right;
+}
+.login-form .small {
+    font-size: 13px;
+}
+ .login-form a {
+    color: #434343;
+}
+.btn01{
+    outline: none;
+    border: none;
+    text-decoration: none;
+    background: none;
+  }
+  ul {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .footer-section {
+    background-image: url(../images/simple2.png) ;
+    opacity: 0.9; ;
+     background-repeat: no-repeat;
+     background-size: cover;
+    position: relative;
+   
+    
+  }
+  .footer-cta {
+    border-bottom: 1px solid saddlebrown;
+  }
+  .single-cta i {
+    color: saddlebrown;
+    font-size: 30px;
+    float: left;
+    margin-top: 8px;
+    margin-left: 60px;
+  }
+  .cta-text {
+    padding-left: 10px;
+    display: inline-block;
+  }
+  .cta-text h4 {
+    color: saddlebrown;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 2px;
+  }
+  .cta-text span {
+    color: #3d3232;
+    font-size: 15px;
+  }
+  .footer-content {
+    position: relative;
+    z-index: 2;
+  }
+  .footer-logo h1{
+      color: saddlebrown;
+      font-family: cursive;
+  }
+  .footer-logo a:hover{
+      text-decoration: none;
+      /* color: goldenrod; */
+  }
+  
+  .footer-text p {
+    margin-bottom: 14px;
+    font-size: 14px;
+        color: #312b2b;
+    line-height: 28px;
+  }
+  .footer-social-icon span {
+    color: saddlebrown;
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+  }
+  .footer-social-icon a {
+    color: #fff;
+    font-size: 16px;
+    margin-right: 15px;
+    
+  }
+  .footer-social-icon a:hover{
+    text-decoration: none;
+    color: white;
+  }
+  .footer-social-icon i {
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 38px;
+    border-radius: 50%;
+  
+  }
+  .facebook-bg{
+    background: #3B5998;
+  }
+  .twitter-bg{
+    background: #55ACEE;
+  }
+  .google-bg{
+    background: #DD4B39;
+  }
+  .youtube-bg{
+    background-color: red;
+  }
+  .footer-widget-heading h3 {
+    color: saddlebrown;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    position: relative;
+    margin-left: 90px;
+  }
+  .footer-widget-heading h3::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -15px;
+    height: 2px;
+    width: 50px;
+    background: saddlebrown;
+  }
+  .footer-widget ul li {
+    display: inline-block;
+    float: left;
+    width: 50%;
+    margin-bottom: 10px;
+    margin-left: -35px;
+  }
+  .footer-widget ul li a:hover{
+    color: rgb(83, 52, 15);
+    transition: 0.7s
+  }
+  .footer-widget ul li a {
+    color: #252121;
+    text-transform: capitalize;
+    font-size: 14px;
+    margin-left: 90px;
+  }
+  .subscribe-form {
+    position: relative;
+    overflow: hidden;
+  }
+  .subscribe-form input {
+    width: 100%;
+    padding: 14px 28px;
+    background: #2E2E2E;
+    border: 1px solid #2E2E2E;
+    color: #fff;
+  }
+  .subscribe-form button {
+      position: absolute;
+      right: 0;
+      background: saddlebrown;
+      padding: 13px 20px;
+      border: 1px solid  saddlebrown;
+      top: 0;
+  }
+  .subscribe-form button i {
+    color: #fff;
+    font-size: 22px;
+    transform: rotate(-6deg);
+  }
+  .copyright-area{
+    background: #202020;
+    padding: 25px 0;
+  }
+  .footer-menu li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  .footer-menu li:hover a{
+    color: goldenrod;
+  }
+  .footer-menu li a {
+    font-size: 14px;
+    color: #878787;
+  }
